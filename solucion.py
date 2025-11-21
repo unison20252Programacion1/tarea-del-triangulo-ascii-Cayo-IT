@@ -6,12 +6,12 @@ def triangulo_simetrico(m: int, s: str) -> str:
          print("Error: La altura debe ser un entero positivo")
          return
          
-    # TODO: implementar la lógica para generar el triángulo simétrico en ASCII
-    #Parte 1: Triangulo Creciente
+    # Parte 1: Triangulo Creciente
     for i in range(1, m + 1):
         print(s * i)
 
-    #Parte 2: Triangulo Decreciente
+    # Parte 2: Triangulo Decreciente
     for i in range(m - 1, 0, -1):
         print(s * i)
 
+     # TODO: implementar la lógica para generar el triángulo simétrico en ASCII
